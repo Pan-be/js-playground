@@ -27,7 +27,7 @@ function countLeafNodes(node) {
 	return countLeafNodes(node.left) + countLeafNodes(node.right)
 }
 
-countLeafNodes(root.right)
+// countLeafNodes(root.right)
 
 const numLeafNodes = countLeafNodes(root)
 console.log(numLeafNodes) // Output: 5
